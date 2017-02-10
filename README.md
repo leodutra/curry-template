@@ -52,6 +52,7 @@ configBuilder({id: '549873456448'});
                 }]
             }
         },
+        c: function() { console.log('avoided') },
         d: /keepRegExp/gim,
         e: "keep simple texts",
         f: 10

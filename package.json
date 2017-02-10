@@ -1,14 +1,14 @@
 {
   "name": "curry-template",
   "version": "1.0.2",
-  "description": "Curries a parametrized string literal to receive variable values using ES6 Template String syntax",
+  "description": "Create curried templates from common JS structures using ES6 syntax",
   "main": "curry-template.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape tests/**/*.js | faucet"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leodutra/curried-string.git"
+    "url": "git+https://github.com/leodutra/curry-template.git"
   },
   "keywords": [
     "template",
@@ -20,7 +20,11 @@
   "author": "Leo Dutra (http://github.com/leodutra)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leodutra/curried-string/issues"
+    "url": "https://github.com/leodutra/curry-template/issues"
   },
-  "homepage": "https://github.com/leodutra/curried-string#readme"
+  "homepage": "https://github.com/leodutra/curry-template#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.6.3"
+  }
 }
