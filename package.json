@@ -1,0 +1,26 @@
+{
+  "name": "curry-template",
+  "version": "1.0.0",
+  "description": "Curries a parametrized string literal to receive variable values using ES6 Template String syntax",
+  "main": "curry-template.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leodutra/curried-string.git"
+  },
+  "keywords": [
+    "template",
+    "string",
+    "interpolation",
+    "replace",
+    "curried"
+  ],
+  "author": "Leo Dutra (http://github.com/leodutra)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leodutra/curried-string/issues"
+  },
+  "homepage": "https://github.com/leodutra/curried-string#readme"
+}
