@@ -1,6 +1,6 @@
 {
   "name": "curry-template",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create curried templates from common JS structures using ES6 syntax",
   "main": "curry-template.js",
   "scripts": {
