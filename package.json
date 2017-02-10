@@ -1,6 +1,6 @@
 {
   "name": "curry-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Curries a parametrized string literal to receive variable values using ES6 Template String syntax",
   "main": "curry-template.js",
   "scripts": {
