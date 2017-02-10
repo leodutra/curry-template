@@ -15,7 +15,7 @@ $ npm i --save curry-template
 
 ## Usage
 
-### curryTemplate(String, Object)
+### curryTemplate(String, Object) -> String
 ```js
 var curryTemplate = require('curry-template');
 
@@ -23,7 +23,7 @@ var buildPath = curryTemplate('/api/users/${id}/');
 buildPath({id: '549873456448'}); // -> "/api/users/549873456448/"
 ```
 
-### curryTemplate(Object, Object)
+### curryTemplate(Object, Object) -> Object
 ```js
 var configTemplate = {
     a: ['/api/users/${id}/${action}'],
@@ -61,7 +61,7 @@ configBuilder({id: '549873456448'});
 */
 ```
 
-### curryTemplate(String, Array)
+### curryTemplate(String, Array) -> String
 ```js
 var arrayBuildPath = curryTemplate('/api/users/${0}/${1}/${2}', [null, null, 'ascending']);
 arrayBuildPath(['549873456448', 'getUser']); // -> "/api/users/549873456448/getUser/ascending"
