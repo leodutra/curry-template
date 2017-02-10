@@ -1,4 +1,4 @@
-# curried-template
+# curry-template
 **Create curried templates from common JS structures using ES6 syntax**
 
 ## Install
